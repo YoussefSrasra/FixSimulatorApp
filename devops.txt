@@ -1,5 +1,5 @@
-Phase,Tâche,Objectif
-P1 : Conteneurisation,   Création des Dockerfile et docker-compose.yml,   "Rendre le projet ""exécutable partout""."
-P2 : Automatisation CI,   Workflow GitHub Actions (Build & Test),   Compiler et tester à chaque git push.
-P3 : Sécurité,   Intégration SAST (Snyk/Sonar),   Détecter les failles de sécurité et les bugs dans le code.
-P4 : Registry,    Push des images vers Docker Hub / GitHub Registry,   Stocker les versions prêtes à l'emploi de ton app.
+Phase,Nom,Description,Statut
+P1,  Conteneurisation Local,  Créer les Dockerfiles et tester l'orchestration avec Docker Compose sur ton PC.,  À faire 🟥
+P2,  CI (Continuous Integration),  Créer le Workflow GitHub Actions pour compiler et tester le code à chaque commit.,  À faire 🟥
+P3,  Analyse de Sécurité (SAST),  Intégrer un scanneur (Snyk ou SonarCloud) pour vérifier les failles du code.,  À faire 🟥
+P4,  CD (Continuous Deployment),  Automatiser la création des images Docker et le déploiement (vers un registre ou serveur).,  À faire 🟥

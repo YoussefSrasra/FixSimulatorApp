@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: trading-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "${MYSQL_LOCAL_PORT}:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost", "--silent" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+
+  backend:
+    build: ./fixBackend
+    container_name: trading-backend
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/${MYSQL_DB_NAME}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      - SPRING_DATASOURCE_USERNAME=${MYSQL_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${MYSQL_PASSWORD}
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    ports:
+      - "${BACKEND_PORT}:8080"
+
+
+
+  frontend:
+    build: ./fix-trading-ui
+    container_name: trading-ui
+    restart: always
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
