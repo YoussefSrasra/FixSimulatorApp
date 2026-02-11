@@ -1,0 +1,78 @@
+20260210-10:58:18: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-10:58:18: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-10:58:19: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:56773
+20260210-10:58:19: Acceptor heartbeat set to 30 seconds
+20260210-10:58:19: Received logon
+20260210-10:58:19: Responding to Logon request
+20260210-11:06:35: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:06:35: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-11:06:36: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:63185
+20260210-11:06:36: Acceptor heartbeat set to 30 seconds
+20260210-11:06:36: Received logon
+20260210-11:06:36: Responding to Logon request
+20260210-11:10:00: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:10:00: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-11:10:01: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:53892
+20260210-11:10:01: Acceptor heartbeat set to 30 seconds
+20260210-11:10:01: Received logon
+20260210-11:10:01: Responding to Logon request
+20260210-11:13:31: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:13:31: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-11:13:32: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:58448
+20260210-11:13:32: Acceptor heartbeat set to 30 seconds
+20260210-11:13:32: Received logon
+20260210-11:13:32: Responding to Logon request
+20260210-12:28:29: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-12:28:29: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-12:28:30: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:62659
+20260210-12:28:30: Acceptor heartbeat set to 30 seconds
+20260210-12:28:30: Received logon
+20260210-12:28:30: Responding to Logon request
+20260210-12:30:23: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-12:30:23: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-12:30:24: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:57386
+20260210-12:30:24: Acceptor heartbeat set to 30 seconds
+20260210-12:30:24: Received logon
+20260210-12:30:24: Responding to Logon request
+20260210-13:12:50: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:12:50: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-13:12:51: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:53160
+20260210-13:12:51: Acceptor heartbeat set to 30 seconds
+20260210-13:12:51: Received logon
+20260210-13:12:51: Responding to Logon request
+20260210-13:14:06: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:14:06: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-13:14:07: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:56130
+20260210-13:14:07: Acceptor heartbeat set to 30 seconds
+20260210-13:14:07: Received logon
+20260210-13:14:07: Responding to Logon request
+20260210-13:46:39: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:46:39: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-13:46:40: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:63857
+20260210-13:46:40: Acceptor heartbeat set to 30 seconds
+20260210-13:46:40: Received logon
+20260210-13:46:40: Responding to Logon request
+20260210-13:49:22: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:49:22: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-13:49:23: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:55055
+20260210-13:49:23: Acceptor heartbeat set to 30 seconds
+20260210-13:49:23: Received logon
+20260210-13:49:23: Responding to Logon request
+20260210-13:49:41: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:49:41: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-13:49:42: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:62265
+20260210-13:49:42: Acceptor heartbeat set to 30 seconds
+20260210-13:49:42: Received logon
+20260210-13:49:42: Responding to Logon request
+20260210-14:14:03: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-14:14:03: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-14:14:04: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:55453
+20260210-14:14:04: Acceptor heartbeat set to 30 seconds
+20260210-14:14:04: Received logon
+20260210-14:14:04: Responding to Logon request
+20260210-14:15:42: Session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-14:15:42: Created session: FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1
+20260210-14:15:43: Accepting session FIX.4.4:BROKER_EXCHANGE_1->CLIENT_WEB_1 from /127.0.0.1:60362
+20260210-14:15:43: Acceptor heartbeat set to 30 seconds
+20260210-14:15:43: Received logon
+20260210-14:15:43: Responding to Logon request

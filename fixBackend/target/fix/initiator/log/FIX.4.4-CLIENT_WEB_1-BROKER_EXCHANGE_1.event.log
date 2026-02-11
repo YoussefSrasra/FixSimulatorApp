@@ -1,0 +1,78 @@
+20260210-10:58:18: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-10:58:18: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-10:58:18: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-10:58:18: MINA session created: local=/127.0.0.1:56773, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-10:58:19: Initiated logon request
+20260210-10:58:19: Received logon
+20260210-11:06:35: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:06:35: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-11:06:35: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-11:06:35: MINA session created: local=/127.0.0.1:63185, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-11:06:36: Initiated logon request
+20260210-11:06:36: Received logon
+20260210-11:10:00: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:10:00: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-11:10:00: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-11:10:00: MINA session created: local=/127.0.0.1:53892, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-11:10:01: Initiated logon request
+20260210-11:10:01: Received logon
+20260210-11:13:31: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-11:13:31: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-11:13:31: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-11:13:31: MINA session created: local=/127.0.0.1:58448, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-11:13:32: Initiated logon request
+20260210-11:13:32: Received logon
+20260210-12:28:29: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-12:28:29: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-12:28:29: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-12:28:29: MINA session created: local=/127.0.0.1:62659, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-12:28:30: Initiated logon request
+20260210-12:28:30: Received logon
+20260210-12:30:23: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-12:30:23: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-12:30:23: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-12:30:23: MINA session created: local=/127.0.0.1:57386, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-12:30:24: Initiated logon request
+20260210-12:30:24: Received logon
+20260210-13:12:50: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:12:50: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-13:12:50: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-13:12:50: MINA session created: local=/127.0.0.1:53160, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-13:12:51: Initiated logon request
+20260210-13:12:51: Received logon
+20260210-13:14:06: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:14:06: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-13:14:06: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-13:14:06: MINA session created: local=/127.0.0.1:56130, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-13:14:07: Initiated logon request
+20260210-13:14:07: Received logon
+20260210-13:46:39: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:46:39: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-13:46:39: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-13:46:39: MINA session created: local=/127.0.0.1:63857, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-13:46:40: Initiated logon request
+20260210-13:46:40: Received logon
+20260210-13:49:22: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:49:22: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-13:49:22: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-13:49:22: MINA session created: local=/127.0.0.1:55055, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-13:49:23: Initiated logon request
+20260210-13:49:23: Received logon
+20260210-13:49:41: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-13:49:41: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-13:49:41: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-13:49:41: MINA session created: local=/127.0.0.1:62265, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-13:49:42: Initiated logon request
+20260210-13:49:42: Received logon
+20260210-14:14:03: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-14:14:03: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-14:14:03: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-14:14:03: MINA session created: local=/127.0.0.1:55453, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-14:14:04: Initiated logon request
+20260210-14:14:04: Received logon
+20260210-14:15:42: Session FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1 schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20260210-14:15:42: Created session: FIX.4.4:CLIENT_WEB_1->BROKER_EXCHANGE_1
+20260210-14:15:42: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20260210-14:15:42: MINA session created: local=/127.0.0.1:60362, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20260210-14:15:43: Initiated logon request
+20260210-14:15:43: Received logon
