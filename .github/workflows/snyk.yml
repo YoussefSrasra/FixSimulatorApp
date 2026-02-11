@@ -33,6 +33,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: fix-trading-ui/package-lock.json
+
+      - name: Install Frontend Dependencies
+        run: |
+          cd fix-trading-ui
+          npm install
 
       - name: Snyk Frontend Scan
         run: snyk test --file=fix-trading-ui/package.json --severity-threshold=high
