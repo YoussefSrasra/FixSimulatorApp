@@ -6,6 +6,10 @@ import fix.simulator.fixbackend.fix.FixInitiatorApp;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.Resource;
+
+import java.io.IOException;
+import java.io.InputStream;
 import quickfix.*;
 
 import java.beans.BeanProperty;
@@ -14,15 +18,16 @@ import java.beans.BeanProperty;
 public class FixEngineConfig {
 
     @Value("${fix.initiator.config}")
-    private String initiatorConfigFile;
+    private Resource initiatorResource;
 
     @Value("${fix.acceptor.config}")
-    private String acceptorConfigFile;
+    private Resource acceptorResource;
 
 
     @Bean
-    public ThreadedSocketInitiator initiator (FixInitiatorApp application)throws ConfigError, FieldConvertError {
-        SessionSettings settings = new SessionSettings(initiatorConfigFile);
+    public ThreadedSocketInitiator initiator (FixInitiatorApp application)throws ConfigError, FieldConvertError, IOException {
+        InputStream inputStream = initiatorResource.getInputStream();
+        SessionSettings settings = new SessionSettings(inputStream);
         MessageStoreFactory storeFactory = new FileStoreFactory(settings);
         LogFactory logFactory = new FileLogFactory(settings);
         MessageFactory messageFactory = new DefaultMessageFactory();
@@ -30,8 +35,9 @@ public class FixEngineConfig {
     }
 
     @Bean
-    public ThreadedSocketAcceptor acceptor (FixAcceptorApp application) throws ConfigError, FieldConvertError{
-        SessionSettings settings = new SessionSettings(acceptorConfigFile);
+    public ThreadedSocketAcceptor acceptor (FixAcceptorApp application) throws ConfigError, FieldConvertError, IOException{
+        InputStream inputStream = acceptorResource.getInputStream();
+        SessionSettings settings = new SessionSettings(inputStream);
         MessageStoreFactory storeFactory = new FileStoreFactory(settings);
         LogFactory logFactory = new FileLogFactory(settings);
         MessageFactory messageFactory = new DefaultMessageFactory();
