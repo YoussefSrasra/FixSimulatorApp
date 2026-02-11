@@ -17,7 +17,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --file=fix-backend/build.gradle --severity-threshold=high
+          args: --file=fixBackend/build.gradle --severity-threshold=high
 
       - name: Snyk Frontend Scan
         uses: snyk/actions/node@master
