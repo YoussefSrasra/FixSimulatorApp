@@ -22,7 +22,7 @@ jobs:
 
       - name: Build Backend with Gradle
         run: |
-          cd fix-backend
+          cd fixBackend
           chmod +x gradlew
           ./gradlew build -x test 
 
